@@ -4,10 +4,10 @@ width: 4
 date: 2021-09-12 00:01:00 +0800
 height: 400px
 images:
-- src: assets\images\showcase\boxing\1.jpg
-- src: assets\images\showcase\boxing\2.jpg
-- src: assets\images\showcase\boxing\3.jpg
-- src: assets\images\showcase\boxing\4.jpg
+- src: /assets/images/showcase/boxing/1.jpg
+- src: /assets/images/showcase/boxing/2.jpg
+- src: /assets/images/showcase/boxing/3.jpg
+- src: /assets/images/showcase/boxing/4.jpg
   # title: Photo 1
   # desc: Description 1.
   # link: https://picsum.photos/

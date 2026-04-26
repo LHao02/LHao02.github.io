@@ -37,7 +37,7 @@ group: Sichuan Artificial Intelligence Institute
 </style>
 <div class="running-grid">
   <div class="img-zoom-wrapper">
-    <img src="{{ 'assets\images\showcase\AI_school\3.JPG' | relative_url }}" class="special-img" >
+    <img src="{{ '/assets/images/showcase/AI_school/3.JPG' | relative_url }}" class="special-img" >
   </div>
   <img src="{{ 'assets/images/showcase/AI_school/2.JPG' | relative_url }}" class="rounded-xl" >
   <img src="{{ 'assets/images/showcase/AI_school/1.JPG' | relative_url }}" class="rounded-xl" >

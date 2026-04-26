@@ -28,8 +28,8 @@ group: Competition
   }
 </style>
 <div class="running-grid">
-  <img src="{{ 'assets\images\showcase\competition\1.jpg' | relative_url }}" class="rounded-xl" >
-  <img src="{{ 'assets\images\showcase\competition\2.jpg' | relative_url }}" class="rounded-xl" >
-  <img src="{{ 'assets\images\showcase\competition\3.jpg' | relative_url }}" class="rounded-xl" >
-  <img src="{{ 'assets\images\showcase\competition\4.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ '/assets/images/showcase/competition/1.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ '/assets/images/showcase/competition/2.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ '/assets/images/showcase/competition/3.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ '/assets/images/showcase/competition/4.jpg' | relative_url }}" class="rounded-xl" >
 </div>
