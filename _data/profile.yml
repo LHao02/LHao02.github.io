@@ -1,50 +1,62 @@
-primary_name: "Your Name"
+primary_name: "Hao Li 李皓 （27保研，有读博意向）"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Hao Li"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+# - name: Title or Position
+- name: UG Student @ Southwest University of Science and Technology
+  logo: assets\images\badges\swust.jpg # Logo is optional
 
 
-email: "your@email.com"
+email: "lh@mails.swust.edu.cn"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+gscholar: N0vUynsAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: LHao02
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+orcid: 0009-0005-9193-323X
+cv_link: assets\CV\李皓CV_V2.pdf
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    Hao Li is a undergradudate student at Southwest University of Science and Technology, 
+    majoring in Electronic Information Engineering (National First-class Undergraduate Major). 
+    Since joining the <a href="https://info.swust.edu.cn/tssys/main.htm" target="_blank" rel="noopener noreferrer">Robot Technology Used for Special Environment Key Laboratory of Sichuan Province</a> in his sophomore year,
+    he has began to explore the field of inertial gait recognition, with a particular focus on the robust recognition under disguised conditions.
+    Then he has participated in paper research, dataset construction, algorithm implementation, and paper writing, developing strong interests in pattern recognition, temporal modeling,and unsupervised domain adaptation.
+    In the future, he hopes to extend his reseach towards audio-visual perception and spatial perception intelligence-enabled dexterous manipulation and embodied navigation.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    李皓，本科，电子信息工程（国家级一流本科）。自大二加入特殊环境机器人技术四川省重点实验室，他开始在步态识别领域进行学习和探索，专注于伪装条件下的鲁棒识别。
+    此后他继续研读论文、构建数据集、复现算法、开展论文写作，并在模式识别、时序建模和无监督域适应上展现出极大兴趣。
+    未来，他希望在视-听感知<br/>与空间感知智能赋能的灵巧操作和具身导航领域继续探索。
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/lihao2.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Excercising on the rooftop.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: “建行杯”四川省国际大学生创新大赛金奖（技术负责人）
+  date: 2025
+- name: 全国大学生数学建模竞赛省三（队长）
+  date: 2025
+- name: 第十七届“电工杯”全国大学生数学建模竞赛国三（队长）
+  date: 2025
+- name: 第十二届“大唐杯”工程实践赛本科A组省一（队长）
+  date: 2025
+- name: 大学生电子设计竞赛校级二等奖（队长）
+  date: 2025
+- name: 第十六届全国大学生数学竞赛省三（个人）
+  date: 2024
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: B.S. in Computer Science
+#   date: Sep. 2019 - Jul. 2021
 
 # experience:
 # - name: Peking University
@@ -53,9 +65,15 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Award Name 2
+- name: 国家励志奖学金
+  date: 2025
+- name: 国家励志奖学金
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: 校三好学生
+  date: 2025
+- name: 校成绩优秀奖
+  date: 2025
+- name: 四川省A级证书
+  date: 2025
+- name: 计算机二级、普通话二乙等
+  date: 2025

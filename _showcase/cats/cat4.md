@@ -1,14 +1,35 @@
 ---
 show: true
-width: 3
-date: 2020-01-10 00:01:00 +0800
-group: Cats
+width: 12
+date: 2019-01-12 00:01:00 +0800
+group: Competition
 ---
-<div>
-  <img data-src="https://images.unsplash.com/photo-1536070800722-f1a29a336bc7?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="lazy w-100 rounded-xl-top" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
-  <div class="card-body">
-    <p class="card-text">
-      Meow! I am a cat. <a href="https://unsplash.com/photos/russian-blue-cat-in-close-up-photography-1pjqSWDcgwo" target="_blank">Unsplash</a>
-    </p>
-  </div>
+<style>
+  .running-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .running-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .running-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 480px) {
+    .running-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+<div class="running-grid">
+  <img src="{{ 'assets\images\showcase\competition\1.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ 'assets\images\showcase\competition\2.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ 'assets\images\showcase\competition\3.jpg' | relative_url }}" class="rounded-xl" >
+  <img src="{{ 'assets\images\showcase\competition\4.jpg' | relative_url }}" class="rounded-xl" >
 </div>
