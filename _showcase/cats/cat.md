@@ -28,8 +28,8 @@ group: Running
   }
 </style>
 <div class="running-grid">
-  <img src="{{ 'assets/images/showcase/running/1.jpg' | relative_url }}" class="rounded-xl" >
-  <img src="{{ 'assets/images/showcase/running/2.jpg' | relative_url }}" class="rounded-xl" >
-  <img src="{{ 'assets/images/showcase/running/3.jpg' | relative_url }}" class="rounded-xl" >
-  <img src="{{ 'assets/images/showcase/running/4.jpg' | relative_url }}" class="rounded-xl" >
+  <img data-src="{{ 'assets/images/showcase/running/1.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}" >
+  <img data-src="{{ 'assets/images/showcase/running/2.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}" >
+  <img data-src="{{ 'assets/images/showcase/running/3.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}" >
+  <img data-src="{{ 'assets/images/showcase/running/4.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}" >
 </div>

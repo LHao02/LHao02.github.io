@@ -40,15 +40,15 @@ group: Other
 </style>
 <div class="running-grid">
   <div class="photo-item">
-    <img src="{{ 'assets/images/showcase/Other/2.jpg' | relative_url }}" class="rounded-xl">
+    <img data-src="{{ 'assets/images/showcase/Other/2.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}">
   </div>
   <div class="photo-item">
-    <img src="{{ 'assets/images/showcase/Other/1.jpg' | relative_url }}" class="rounded-xl">
+    <img data-src="{{ 'assets/images/showcase/Other/1.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}">
   </div>
   <div class="photo-item">
-    <img src="{{ 'assets/images/showcase/Other/4.jpg' | relative_url }}" class="rounded-xl">
+    <img data-src="{{ 'assets/images/showcase/Other/4.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}">
   </div>
   <div class="photo-item">
-    <img src="{{ 'assets/images/showcase/Other/3.jpg' | relative_url }}" class="rounded-xl">
+    <img data-src="{{ 'assets/images/showcase/Other/3.jpg' | relative_url }}" class="lazy rounded-xl" src="{{ '/assets/images/empty_300x200.svg' | relative_url }}">
   </div>
 </div>

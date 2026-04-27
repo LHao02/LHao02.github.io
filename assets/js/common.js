@@ -1,6 +1,6 @@
 // aHR0cHM6Ly9naXRodWIuY29tL2x1b3N0MjYvYWNhZGVtaWMtaG9tZXBhZ2U=
 $(function () {
-    lazyLoadOptions = {
+    var lazyLoadOptions = {
         scrollDirection: 'vertical',
         effect: 'fadeIn',
         effectTime: 300,
@@ -21,8 +21,17 @@ $(function () {
         }
     }
 
-    $('img.lazy, div.lazy:not(.always-load)').Lazy({visibleOnly: true, ...lazyLoadOptions});
-    $('div.lazy.always-load').Lazy({visibleOnly: false, ...lazyLoadOptions});
+    $('img.lazy:not(.always-load), div.lazy:not(.always-load)').Lazy({visibleOnly: true, ...lazyLoadOptions});
+    $('img.lazy.always-load, div.lazy.always-load').Lazy({visibleOnly: false, ...lazyLoadOptions});
+
+    $(document).on('shown.bs.modal', function (event) {
+        $(event.target).find('img.lazy[data-src]').each(function () {
+            var element = $(this);
+            if (element.attr('src') !== element.data('src')) {
+                element.attr('src', element.data('src'));
+            }
+        });
+    });
 
     $('[data-toggle="tooltip"]').tooltip()
 
@@ -34,6 +43,11 @@ $(function () {
     // layout Masonry after each image loads
     $grid.imagesLoaded().progress(function () {
         $grid.masonry('layout');
+    });
+
+    $("img.lazy").on("load", function () {
+        $(this).css('background-image', 'none');
+        $(this).css('min-height', '0');
     });
 
     $(".lazy").on("load", function () {
